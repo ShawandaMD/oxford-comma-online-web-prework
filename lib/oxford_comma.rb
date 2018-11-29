@@ -5,9 +5,9 @@ def oxford_comma(array)
   elsif array.size == 2 
     array.join(" and ")
 
-  elsif array.size == 3
+ # elsif array.size == 3
     #array.map {|x| "#{x}, #{x} and #{x}"}
-    "#{array[0]}, #{array[1]}, and #{array[2]}"
+   # "#{array[0]}, #{array[1]}, and #{array[2]}"
     
   else array.size >= 3 #iterating over methos to return a comma between each element and an "and" before the last element.
    new_array = [] 
